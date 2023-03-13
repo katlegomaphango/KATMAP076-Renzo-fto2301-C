@@ -59,14 +59,14 @@ a {
 /* ===== main ====== */
 
 main {
-
+    display: grid;
+    grid-template-columns: 4fr 1fr;
 }
 
 .main-content {
     padding: 1.25rem;
     margin-bottom: 2rem;
 }
-
 
 .aside-content {
     position: sticky;
