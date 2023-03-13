@@ -2,6 +2,9 @@
     height: 50vh;
 
     /* add solution here */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .child {
