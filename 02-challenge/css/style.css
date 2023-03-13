@@ -85,6 +85,8 @@ main {
 
 .categories {
     text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .category {
@@ -111,6 +113,7 @@ button:hover {
 .sponsors {
     display: grid;
     text-align: center;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .sponsors > div {
@@ -139,11 +142,11 @@ button:hover {
 /* ===== grid modifiers ===== */
 
 .col-span-2 {
-    /* for the footer */
-    grid-column: 1 / 3;
+    grid-column: span 2;
 
 }
 
 .row-span-2 {
-    
+    grid-row: 1/3;
+    grid-column: 3/4;
 }
